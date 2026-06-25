@@ -1,0 +1,10 @@
+{
+  "name": "anvl-status-page",
+  "version": "1.0.0",
+  "description": "Self-updating live status page for ANVL platform. Shows real user/project counts from /api/stats, checks all 8 core services, and displays 30-day uptime bars.",
+  "keywords": ["anvl", "status", "uptime", "monitoring", "solana"],
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx serve src -p 4001"
+  }
+}
